@@ -26,6 +26,12 @@ Install dependencies
 npm install node-fetch@2
 ```
 
+isi pesan, 1 pesan per line
+
+```
+nano mes.txt
+```
+
 Isi Access Token dan Channel ID
 
 ```
@@ -48,6 +54,14 @@ Contoh
 
 ```
 
+Jika Ingin Mengirim Pesan ke banyak Channel untuk 1 akun tambah kan Channel ID lain
+
+Contoh
+
+```
+"channels": ["channel1","channel2"]
+```
+
 📌 Cara dapatkan Token:
 
 ⚠️ Jangan pernah bagikan token ke siapa pun!
@@ -60,8 +74,3 @@ Kirim Pesan bebas
 
 Filter messages → klik request → lihat di Headers > Authorization
 
-
-isi pesan 1 pesan per line
-```
-nano mes.txt
-```
